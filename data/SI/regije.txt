@@ -1,0 +1,13 @@
+# admin_level 5 
+1699230 Upper Carniola
+1699148 Goriška
+541729 Jugovzhodna Slovenija
+1703687 Koroška
+541718 Notranjsko-kraška
+541722 Obalno-kraška
+1703387 Osrednjeslovenska
+1703668 Podravska
+1703918 Pomurska
+1703400 Savinjska
+1703401 Spodnjeposavska
+1703402 Zasavska

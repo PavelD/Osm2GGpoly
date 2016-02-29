@@ -1,0 +1,213 @@
+# admin_level 8
+1676306 Celje
+541958 Koper
+1675676 Kranj
+1675898 Ljubljana
+1676328 Maribor
+1676363 Murska Sobota
+1675786 Nova Gorica
+1685734 Novo mesto
+1676350 Ptuj
+1675900 Slovenj Gradec
+1675901 Velenje
+1675824 Ajdovščina
+5504660 Ankaran
+1676333 Apače
+1676362 Beltinci
+1676342 Benedikt
+1685718 Bistrica ob Sotli
+1675660 Bled
+1681539 Bloke
+1675775 Bohinj
+1681540 Borovnica
+1675776 Bovec
+1675894 Braslovče
+1675784 Brda
+1675853 Brezovica
+1685719 Brežice
+1676374 Cankova
+1675667 Cerklje na Gorenjskem
+1681541 Cerknica
+1675836 Cerkno
+1676358 Cerkvenjak
+1685720 Cirkulane
+1685746 Črenšovci
+1675624 Črna na Koroškem
+1685747 Črnomelj
+1676348 Destrnik
+1675845 Divača
+1681495 Dobje
+1681532 Dobrepolje
+1676307 Dobrna
+1675854 Dobrova-Polhov Gradec
+1676394 Dobrovnik
+1675871 Dol pri Ljubljani
+1681527 Dolenjske Toplice
+1675866 Domžale
+1676354 Dornava
+1676290 Dravograd
+1676349 Duplek
+1675837 Gorenja vas-Poljane
+1685721 Gorišnica
+1675661 Gorje
+1676334 Gornja Radgona
+1675881 Gornji Grad
+1676390 Gornji Petrovci
+1676372 Grad
+1681533 Grosuplje
+1676352 Hajdina
+1676321 Hoče-Slivnica
+1676391 Hodoš
+1675855 Horjul
+1681509 Hrastnik
+541741 Hrpelje - Kozina
+1675830 Idrija
+1681534 Ig
+541589 Ilirska Bistrica
+1685686 Ivančna Gorica
+541990 Izola
+1675607 Jesenice
+1675621 Jezersko
+1676356 Juršinci
+1675668 Kamnik
+1675785 Kanal
+1676318 Kidričevo
+1675777 Kobarid
+1676395 Kobilje
+1685728 Kočevje
+1675825 Komen
+1675859 Komenda
+1685726 Kostanjevica na Krki
+541301 Kostel
+1681499 Kozje
+1675593 Kranjska Gora
+1676360 Križevci
+1685729 Krško
+1676327 Kungota
+1676392 Kuzma
+1681496 Laško
+1681544 Lenart
+1676403 Lendava
+1681516 Litija
+1675882 Ljubno
+1685730 Ljutomer
+1675856 Log-Dragomer
+1675846 Logatec
+541539 Loška Dolina
+541496 Loški Potok
+1676297 Lovrenc na Pohorju
+1675883 Luče
+1675872 Lukovica
+1676319 Majšperk
+1676316 Makole
+1676355 Markovci
+1675857 Medvode
+1675867 Mengeš
+1685733 Metlika
+1675622 Mežica
+1676322 Miklavž na Dravskem polju
+1675826 Miren-Kostanjevica
+1681521 Mirna
+1681520 Mirna Peč
+1676308 Mislinja
+1681503 Mokronog-Trebelno
+1675873 Moravče
+1676396 Moravske Toplice
+1675887 Mozirje
+1676293 Muta
+1675677 Naklo
+1675888 Nazarje
+1676364 Odranci
+1676312 Oplotnica
+1685735 Ormož
+1685736 Osilnica
+1676329 Pesnica
+541989 Piran
+1675847 Pivka
+1685739 Podčetrtek
+1685738 Podlehnik
+1676298 Podvelka
+1676317 Poljčane
+1675899 Polzela
+1675848 Postojna
+1675895 Prebold
+1675669 Preddvor
+1676291 Prevalje
+1676373 Puconci
+1676323 Rače-Fram
+1681517 Radeče
+1676335 Radenci
+1676294 Radlje ob Dravi
+1675662 Radovljica
+1676292 Ravne na Koroškem
+1685740 Razkrižje
+1675884 Rečica ob Savinji
+1675827 Renče-Vogrsko
+1681536 Ribnica
+1676299 Ribnica na Pohorju
+1685742 Rogaška Slatina
+1676375 Rogašovci
+1685741 Rogatec
+1676300 Ruše
+1676301 Selnica ob Dravi
+1681528 Semič
+1681504 Sevnica
+1675828 Sežana
+1676313 Slovenska Bistrica
+1676314 Slovenske Konjice
+1681537 Sodražica
+1675623 Solčava
+1685743 Središče ob Dravi
+1676324 Starše
+1681529 Straža
+1676336 Sveta Ana
+1676343 Sveta Trojica v Slovenskih goricah
+1676344 Sveti Andraž v Slov. goricah
+1676359 Sveti Jurij ob Ščavnici
+1676345 Sveti Jurij v Slovenskih goricah
+1676357 Sveti Tomaž
+1676393 Šalovci
+1675787 Šempeter-Vrtojba
+1675861 Šenčur
+1676330 Šentilj
+1685748 Šentjernej
+1681490 Šentjur
+1681505 Šentrupert
+1685749 Škocjan
+1675858 Škofja Loka
+1681535 Škofljica
+1681491 Šmarje pri Jelšah
+1681506 Šmarješke Toplice
+1681518 Šmartno pri Litiji
+1675902 Šmartno ob Paki
+1675890 Šoštanj
+1681497 Štore
+1675896 Tabor
+1676376 Tišina
+1675778 Tolmin
+1681510 Trbovlje
+1681522 Trebnje
+1676351 Trnovska vas
+1675868 Trzin
+1675608 Tržič
+1676365 Turnišče
+1676366 Velika Polana
+1681538 Velike Lašče
+1676361 Veržej
+1685744 Videm
+1675831 Vipava
+1676309 Vitanje
+1675860 Vodice
+1676310 Vojnik
+1675889 Vransko
+1675849 Vrhnika
+1676295 Vuzenica
+1681511 Zagorje
+1685745 Zavrč
+1676315 Zreče
+1676311 Žalec
+1675838 Železniki
+1685750 Žetale
+1681531 Žiri
+1675609 Žirovnica
+1681530 Žužemberk

@@ -1,0 +1,5 @@
+# admin_level 7
+1698022 Fort-de-France
+1702960 La Trinité
+1702961 Le Marin
+1651788 Saint-Pierre

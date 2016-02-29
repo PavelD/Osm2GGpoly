@@ -1,0 +1,35 @@
+# admin_level 8
+287256 Basse-Pointe
+287640 Bellefontaine
+287734 Case-Pilote
+298599 Dikos
+214830 Fonds-Saint-Denis
+290031 Fort-de-France
+287069 Grand'Rivière
+297332 Gros-Morne
+287508 L'Ajoupa-Bouillon
+288715 La Trinité
+285960 Le Carbet
+295490 Le Diamant
+289715 Le François
+299032 Le Lamentin
+287475 Le Lorrain
+288277 Le Marigot
+295775 Le Marin
+214778 Le Morne-Rouge
+287905 Le Morne-Vert
+286616 Le Prêcheur
+289393 Le Robert
+295384 Les Anses-d'Arlet
+295085 Les Trois-Îlets
+290029 Le Vauclin
+287188 Macouba
+296889 Rivière-Pilote
+297294 Rivière-Salée
+295802 Sainte-Anne
+296405 Sainte-Luce
+288528 Sainte-Marie
+297322 Saint-Esprit
+298961 Saint-Joseph
+214833 Saint-Pierre
+287888 Schœlcher

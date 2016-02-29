@@ -1,0 +1,111 @@
+# admin_level 6
+167044 L'Aquila
+41542 Chieti
+41778 Pescara
+42024 Teramo
+40707 Bari
+2203582 Barletta-Andria-Trani
+40485 Brindisi
+41093 Foggia
+40094 Lecce
+40423 Taranto
+40259 Matera
+40136 Potenza
+46429 Belluno
+44217 Padova
+43647 Rovigo
+45300 Treviso
+44230 Venezia
+44107 Verona
+44580 Vicenza
+40715 Avellino
+40973 Benevento
+40940 Caserta
+40600 Napoli
+40217 Salerno
+42856 Bologna
+43292 Ferrara
+42609 Forlì-Cesena
+42884 Modena
+43080 Parma
+43332 Piacenza
+42889 Ravenna
+42965 Reggio Emilia
+42661 Rimini
+179294 Gorizia
+179293 Pordenone
+179292 Trieste
+179295 Udine
+39637 Catanzaro
+39788 Cosenza
+39748 Crotone
+44862 Reggio Calabria
+44866 Vibo Valentia
+41223 Frosinone
+40783 Latina
+41781 Rieti
+41313 Roma
+41817 Viterbo
+49135 Genova
+42628 Imperia
+49131 La Spezia
+42760 Savona
+44996 Bergamo
+44882 Brescia
+45614 Como
+43893 Cremona
+45639 Lecco
+44181 Lodi
+43798 Mantova
+44881 Milano
+251419 Monza e Brianza
+43483 Pavia
+46708 Sondrio
+45347 Varese
+53059 Ancona
+42141 Ascoli Piceno
+907991 Fermo
+42212 Macerata
+42455 Pesaro e Urbino
+41255 Campobasso
+41277 Isernia
+43199 Alessandria
+43267 Asti
+44913 Biella
+42845 Cuneo
+1552704 Novara
+44880 Torino
+46089 Verbano-Cusio-Ossola
+1552705 Vercelli
+276369 Cagliari
+276989 Carbonia-Iglesias
+276417 Medio Campidano
+39979 Nuoro
+276135 Ogliastra
+44869 Olbia-Tempio
+40021 Oristano
+275098 Sassari
+39151 Agrigento
+39178 Caltanissetta
+39181 Catania
+39216 Enna
+39374 Messina
+39295 Palermo
+39157 Ragusa
+39155 Siracusa
+39166 Trapani
+42366 Arezzo
+42472 Firenze
+41976 Grosseto
+42147 Livorno
+42614 Lucca
+42782 Massa-Carrara
+42338 Pisa
+42637 Pistoia
+42619 Prato
+42172 Siena
+45756 Trento
+47046 Bolzano
+42106 Perugia
+42003 Terni
+2905554 Valle d'Aosta
