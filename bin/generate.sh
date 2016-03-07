@@ -10,14 +10,14 @@ for file in $files; do
   f=../export/$fdir
   if [ ! -d "$f" ]; then
     mkdir "$f";
-    for relId in `cat "$file" | awk '{print $1}'`;do
+    for relId in `awk '{print $1}' "$file"`;do
       if [ "$relId" != '#' ]; then
         wget -qO- http://polygons.openstreetmap.fr/index.py?id=$relId > ../export/$relId.status
 
         wget -qO- http://www.openstreetmap.org/relation/$relId > "$f/$relId.txt"
-        nameOriginal=$(cat "$f/$relId.txt" | grep -A1 Key:name\? | grep browse-tag-v | awk -F'>|<' '{print $3}' | recode utf-8..html | sed 's/\&amp\;/\&/g' | recode html..utf-8 )
+        nameOriginal=$(grep -A1 Key:name\? "$f/$relId.txt" | grep browse-tag-v | awk -F'>|<' '{print $3}' | recode utf-8..html | sed 's/\&amp\;/\&/g' | recode html..utf-8 )
         name=$(echo $nameOriginal | iconv -f utf-8 -t ascii//translit | tr "\/" "--" )
-        changeset=$(cat "$f/$relId.txt" | grep changeset/ | awk -F'>|<' '{print $3}')
+        changeset=$(grep changeset/ "$f/$relId.txt" | awk -F'>|<' '{print $3}')
 
         echo "#@$nameOriginal" | iconv -f utf-8 -t windows-1252//translit > "$f/$relId.txt"
         echo "# This polygon is based on data © OpenStreetMap contributors" |  iconv -f utf-8 -t windows-1252//translit >> "$f/$relId.txt"
