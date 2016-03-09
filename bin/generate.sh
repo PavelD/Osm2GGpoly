@@ -1,6 +1,6 @@
 #!/bin/bash
 scriptversion="2.1";
-fullversion=${scriptversion}.`date +'%Y%m%d%H%M'`;
+fullversion=${scriptversion}.`date +'%y%m%d%H%M'`;
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )";
 cd "$DIR/../data";
 files=$(ls ./*/*.txt);
@@ -95,42 +95,45 @@ for file in $files; do
   fi;
   # add installation script template
   if [ ! -f "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas" ]; then
-    echo "function InstallWork: String;" > "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    echo "//fnc-install" > "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    echo >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    echo "//fnc-uninstall" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    echo >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    echo "function InstallWork: String;" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
     echo "begin" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
     echo "  Result := '';" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
-    echo "//tagy-install" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    echo "  //tagy-install" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
     echo "end;" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
     echo >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
     echo "function UninstallWork: String;" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
     echo "begin" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
     echo "  Result := '';" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
-    echo "//tagy-uninstall" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    echo "  //tagy-uninstall" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
     echo "end;" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
     echo "# unix" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
   fi;
   # add (un)install function for each polygon group
   if ! grep --quiet AddPolygon_${d}_${t} "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas"; then
-    sed -i "/\/\/tagy-install/a   AddPolygon_${d}_${t};" "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
-    sed -i "/\/\/tagy-uninstall/a   RemovePolygon_${d}_${t};" "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    sed -i "/\/\/tagy-install/a\ \ AddPolygon_${d}_${t};" "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    sed -i "/\/\/tagy-uninstall/a\ \ RemovePolygon_${d}_${t};" "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    sed -i "/\/\/fnc-install/a end;" "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    sed -i "/\/\/fnc-install/a\ \ RenameFile(Geoget_datadir + '\\\\script\\\\divide\\\\poly\\\\${fdir}', Geoget_datadir + '\\\\polygon\\\\${fdir}');" "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    sed -i "/\/\/fnc-install/a\ \ Deltree(Geoget_datadir + '\\\\polygon\\\\${fdir}\\\\');" "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    sed -i "/\/\/fnc-install/a\ \ \/\/odstran stare polygony a nakopiruj nove" "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    sed -i "/\/\/fnc-install/a\ \ DelTagCategory('${fdir}');" "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    sed -i "/\/\/fnc-install/a\ \ \/\/zrusit stare tagy (rezerva do budoucna)" "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    sed -i "/\/\/fnc-install/a\ \ Result := '';" "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    sed -i "/\/\/fnc-install/a begin" "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    sed -i "/\/\/fnc-install/a function  AddPolygon_${d}_${t}: String;" "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+
+    sed -i "/\/\/fnc-uninstall/a end;" "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    sed -i "/\/\/fnc-uninstall/a\ \ Deletefile(Geoget_datadir + '\\\\script\\\\divide\\\\ini\\\\${d}-${t}.ini.old');" "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    sed -i "/\/\/fnc-uninstall/a\ \ Deletefile(Geoget_datadir + '\\\\script\\\\divide\\\\ini\\\\${d}-${t}.ini');" "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    sed -i "/\/\/fnc-uninstall/a\ \ Deltree(Geoget_datadir + '\\\\polygon\\\\${fdir}\\\\');" "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    sed -i "/\/\/fnc-uninstall/a\ \ Result := '';" "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    sed -i "/\/\/fnc-uninstall/a begin" "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
+    sed -i "/\/\/fnc-uninstall/a function RemovePolygon_${d}_${t}: String;" "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
   fi;
-  echo >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
-  echo "function  AddPolygon_${d}_${t}: String;" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
-  echo "begin" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
-  echo "  Result := '';" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
-  echo "  //zrusit stare tagy (rezerva do budoucna)" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
-  echo "  DelTagCategory('${fdir}');" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
-  echo "  //odstran stare polygony a nakopiruj nove" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
-  echo "  Deltree(Geoget_datadir + '\\polygon\\${fdir}\');" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
-  echo "  RenameFile(Geoget_datadir + '\\script\\divide\\poly\\${fdir}', Geoget_datadir + '\\polygon\\${fdir}');" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
-  echo "end;" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
-  echo >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
-  echo "function RemovePolygon_${d}_${t}: String;" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
-  echo "begin" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
-  echo "  Result := '';" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
-  echo "  Deltree(Geoget_datadir + '\\polygon\\${fdir}\\');" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
-  echo "  Deletefile(Geoget_datadir + '\\script\\divide\\ini\\${d}-${t}.ini');" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
-  echo "  Deletefile(Geoget_datadir + '\\script\\divide\\ini\\${d}-${t}.ini.old');" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
-  echo "end;" >> "../export/polygons-${d}/divide/poly/polygons-${d}.ggi.pas";
 
   cp -r "$f" "../export/polygons-${d}/divide/poly/";
 
@@ -139,9 +142,8 @@ for file in $files; do
     echo "[info]" >> "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini";
     echo "description=${c[$D]} (${D}) polygons [CC-BY-SA]" | iconv -f utf-8 -t windows-1252//translit >> "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini";
     cat "$D/meta.ini" | tr -d '\n' | iconv -f utf-8 -t windows-1252//translit >> "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini";
-    echo " [CC-BY-SA]" >> "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini";
-    # @TODO czech name
-    #echo "description_cs=Polygony pro ${c[$D]} (${D}) [CC-BY-SA]" | iconv -f utf-8 -t windows-1252//translit  >> "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini";
+    echo " (${D}) [CC-BY-SA]" >> "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini";
+    # @TODO more than only one description
     echo "version=${fullversion}" >> "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini";
     echo "ggversion=2.7.2" >> "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini";
     echo >> "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini";
@@ -166,6 +168,7 @@ done
 for divideDir in `find ../export/polygons-*/ -type d -name divide`; do
   cd "$divideDir/..";
   dirPwd=`pwd`
+  echo "Create gip package for ${dirPwd##*/}"
   zip -9r ./${dirPwd##*/}-${fullversion}.gip ./divide/* 2>&1 >/dev/null
   cd "$DIR";
 done
