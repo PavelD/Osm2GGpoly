@@ -5,6 +5,11 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )";
 cd "$DIR/../data";
 files=$(ls ./*/*.txt);
 
+#@TODO correct encoding
+#iconvto="utf-16be//translit" #"windows-1252//translit"
+iconvtometa="windows-1250//translit"
+iconvto=$iconvtometa
+
 declare -A c;
 
 c=([US]="United States" [AF]="Afghanistan" [AX]="Aland Islands" [AL]="Albania" [DZ]="Algeria" [AS]="American Samoa" [AD]="Andorra"
@@ -59,17 +64,25 @@ for file in $files; do
         name=$(echo $nameOriginal | iconv -f utf-8 -t ascii//translit | tr "\/" "--" );
         changeset=$(grep changeset/ "$f/$relId.txt" | awk -F'>|<' '{print $3}');
 
-        echo "#@$nameOriginal" | iconv -f utf-8 -t windows-1252//translit > "$f/$relId.txt";
-        echo "# This polygon is based on data © OpenStreetMap contributors" |  iconv -f utf-8 -t windows-1252//translit >> "$f/$relId.txt";
+        echo "#@$nameOriginal" > "$f/$relId.txt";
+        echo "# This polygon is based on data © OpenStreetMap contributors" >> "$f/$relId.txt";
         echo "# The OpenStreetMap data is made available under the Open Database License, see http://www.openstreetmap.org/copyright" >> "$f/$relId.txt";
         echo "# This polygon file is made available under the same Open Database License: http://opendatacommons.org/licenses/odbl/1.0/." >> "$f/$relId.txt";
         echo "# relation Id: $relId; changeset: $changeset" >> "$f/$relId.txt";
         echo >> "$f/$relId.txt";
-        wget -qO- http://polygons.openstreetmap.fr/get_poly.py?id=$relId\&params=0 | grep -F . | awk '{$1=$1;print}' >> "$f/$relId.txt";
+        < "$f/${relId}.txt" iconv -f utf-8 -t $iconvto > "$f/${name}_$relId.txt"
+        # download OSM polygon to the temp file
+        wget -qO- http://polygons.openstreetmap.fr/get_poly.py?id=$relId\&params=0 > "$f/$relId.txt"
         echo >> "$f/$relId.txt";
+        # join polygons to one
+        endCoordinate=$(grep -B1 END "$f/$relId.txt" |head -n 1);
+        sed -i "s/END/\ ${endCoordinate}/g" "$f/$relId.txt"
+        # remove possible duplicities
+        grep -F . "$f/$relId.txt" |awk -F' ' '{print $2 " " $1}' | sed '$!N; /^\(.*\)\n\1$/!P; D' >> "$f/${name}_$relId.txt";
+        echo >> "$f/${name}_$relId.txt";
 
-        sed -i 's/$'"/`echo \\\r`/" "$f/${relId}.txt";
-        mv "$f/${relId}.txt" "$f/${name}_$relId.txt";
+        sed -i 's/$'"/`echo \\\r`/" "$f/${name}_$relId.txt";
+        rm "$f/${relId}.txt"
         mv ../export/$relId.status "../export/$fdir ${name}_$relId.html";
         echo "$relId: $name done";
       fi;
@@ -139,9 +152,9 @@ for file in $files; do
 
   # add meta ini file
   if [ ! -f "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini" ]; then
-    echo "[info]" >> "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini";
-    echo "description=${c[$D]} (${D}) polygons [CC-BY-SA]" | iconv -f utf-8 -t windows-1252//translit >> "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini";
-    cat "$D/meta.ini" | tr -d '\n' | iconv -f utf-8 -t windows-1252//translit >> "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini";
+    echo "[info]" > "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini";
+    echo "description=${c[$D]} (${D}) polygons [CC-BY-SA]" >> "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini";
+    cat "$D/meta.ini" | tr -d '\n' >> "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini";
     echo " (${D}) [CC-BY-SA]" >> "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini";
     # @TODO more than only one description
     echo "version=${fullversion}" >> "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini";
@@ -155,6 +168,8 @@ for file in $files; do
     echo "[uninstall]" >> "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini";
     echo "divide\\poly\\polygons-${d}.ggi.pas=" >> "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini";
     sed -i 's/$'"/`echo \\\r`/" "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini";
+    < "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini" iconv -f utf-8 -t $iconvtometa > "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini.new"
+    mv "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini.new" "../export/polygons-${d}/divide/poly/polygons-${d}.meta.ini"
   fi;
 done;
 
