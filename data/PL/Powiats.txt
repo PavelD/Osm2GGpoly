@@ -1,0 +1,398 @@
+# admin_level 6
+# Województwo kujawsko-pomorskie
+358688 Bydgoszcz
+2106281 Grudziądz
+2616247 Lipno County
+2615964 powiat aleksandrowski
+2615923 powiat brodnicki
+1277908 powiat bydgoski
+2615799 powiat chełmiński
+2615932 powiat golubsko-dobrzyński
+2570170 powiat grudziądzki
+1286782 powiat inowrocławski
+1385334 powiat mogileński
+1286542 powiat nakielski
+2616210 powiat radziejowski
+2616008 powiat rypiński
+1284692 powiat sępoleński
+1277982 powiat świecki
+1686775 powiat toruński
+1283562 powiat tucholski
+2615887 powiat wąbrzeski
+2616205 powiat włocławski
+1286781 powiat żniński
+1937072 Toruń
+2615984 Włocławek
+# Województwo małopolskie
+449696 Krakow
+2668662 Nowy Sącz
+2656132 powiat bocheński
+2666169 powiat brzeski
+2327849 powiat chrzanowski
+2669013 powiat dąbrowski
+2668409 powiat gorlicki
+2654452 powiat krakowski
+2665025 powiat limanowski
+2664316 powiat miechowski
+1733458 powiat myślenicki
+2665337 powiat nowosądecki
+2431737 powiat nowotarski
+2595535 powiat olkuski
+2662564 powiat oświęcimski
+2660242 powiat proszowicki
+2431738 powiat suski
+2666939 powiat tarnowski
+2431739 powiat tatrzański
+2432814 powiat wadowicki
+2654454 powiat wielicki
+2668633 Tarnów
+# Województwo łódzkie
+2218244 Kutno County
+2413295 Łódź
+2414866 Piotrków Trybunalski
+2717089 powiat bełchatowski
+2805371 powiat brzeziński
+2717094 powiat łaski
+2429557 powiat łęczycki
+2805373 powiat łódzki wschodni
+1403468 powiat łowicki
+2689631 powiat opoczyński
+2798623 powiat pabianicki
+2717090 powiat pajęczański
+2805372 powiat piotrkowski
+2218245 powiat poddębicki
+2453261 powiat radomszczański
+2598269 powiat rawski
+2717091 powiat sieradzki
+2013485 powiat skierniewicki
+2689622 powiat tomaszowski
+2717092 powiat wieluński
+2717093 powiat wieruszowski
+2777495 powiat zduńskowolski
+2218246 powiat zgierski
+2414842 Skierniewice
+# Województwo dolnośląskie
+451269 Jelenia Góra
+451305 Legnica
+451266 powiat bolesławiecki
+451512 powiat dzierżoniowski
+451316 powiat głogowski
+451318 powiat górowski
+451358 powiat jaworski
+451268 powiat jeleniogórski
+451270 powiat kamiennogórski
+451361 powiat kłodzki
+451304 powiat legnicki
+451265 powiat lubański
+451317 powiat lubiński
+451267 powiat lwówecki
+451527 powiat milicki
+451515 powiat oławski
+451525 powiat oleśnicki
+451315 powiat polkowicki
+451511 powiat średzki
+451514 powiat strzeliński
+451360 powiat świdnicki
+451526 powiat trzebnicki
+451359 powiat wałbrzyski
+451510 powiat wołowski
+451517 powiat wrocławski
+451513 powiat ząbkowicki
+451224 powiat zgorzelecki
+451303 powiat złotoryjski
+2773118 Wałbrzych
+451516 Wrocław
+# Województwo lubelskie
+1692832 Biała Podlaska
+2659115 Chełm
+2206549 Lublin
+2706319 powiat bialski
+2006234 powiat biłgorajski
+2668478 powiat chełmski
+2690987 powiat hrubieszowski
+2680097 powiat janowski
+2799859 powiat kraśnicki
+2680095 powiat krasnostawski
+2799895 powiat łęczyński
+2799860 powiat lubartowski
+2265872 powiat lubelski
+2696345 powiat łukowski
+2692420 powiat opolski
+2799913 powiat parczewski
+2692530 powiat puławski
+2799914 powiat radzyński
+2617226 powiat rycki
+2799896 powiat świdnicki
+2713078 powiat tomaszowski
+2792592 powiat włodawski
+2664538 powiat zamojski
+1973109 Zamość
+# Województwo lubuskie
+2533323 Gorzów Wielkopolski
+2663937 powiat gorzowski
+2663855 powiat krośnieński
+2663893 powiat międzyrzecki
+2663868 powiat nowosolski
+2534518 powiat słubicki
+2663925 powiat strzelecko-drezdenecki
+2663875 powiat sulęciński
+2417506 powiat świebodziński
+2663872 powiat wschowski
+2663865 powiat żagański
+2663860 powiat żarski
+2417503 powiat zielonogórski
+2132418 Zielona Góra
+# Województwo mazowieckie
+336621 Grodzisk Mazowiecki County
+2024340 Ostrołęka
+337131 Płock
+2420063 powiat białobrzeski
+2703337 powiat ciechanowski
+2694458 powiat garwoliński
+295880 powiat gostyniński
+2420501 powiat grójecki
+2414747 powiat kozienicki
+1753834 powiat legionowski
+2420280 powiat lipski
+2517728 powiat łosicki
+2676719 powiat makowski
+2695490 powiat miński
+2702535 powiat mławski
+2598346 powiat nowodworski
+2704641 powiat ostrołęcki
+2704689 powiat ostrowski
+2694646 powiat otwocki
+2413644 powiat piaseczyński
+295853 powiat płocki
+295873 powiat płoński
+2419885 powiat pruszkowski
+2703338 powiat przasnyski
+2420502 powiat przysuski
+2705185 powiat pułtuski
+2414748 powiat radomski
+2702732 powiat sierpecki
+295890 powiat sochaczewski
+2705938 powiat sokołowski
+2420439 powiat szydłowiecki
+336314 powiat warszawski zachodni
+2703676 powiat węgrowski
+1994181 powiat wołomiński
+2705413 powiat wyszkowski
+2702483 powiat żuromiński
+2415478 powiat zwoleński
+2420076 Radom
+1386747 Siedlce
+1386760 Siedlce County
+336075 Warszawa
+337029 Żyrardów County
+# Województwo opolskie
+2661906 Opole
+2671091 powiat brzeski
+2662779 powiat głubczycki
+2662768 powiat kędzierzyńsko-kozielski
+2415571 powiat kluczborski
+2661907 powiat krapkowicki
+2587440 powiat namysłowski
+2661908 powiat nyski
+2135330 powiat oleski
+2661909 powiat opolski
+2661910 powiat prudnicki
+2662769 powiat strzelecki
+# Województwo podlaskie
+1429268 Białystok
+2670362 Łomża
+2803333 powiat augustowski
+2803334 powiat białostocki
+2803335 powiat bielski
+2803336 powiat grajewski
+2803337 powiat hajnowski
+2707289 powiat kolneński
+2704647 powiat łomżyński
+2803338 powiat moniecki
+2803339 powiat sejneński
+2705937 powiat siemiatycki
+2803340 powiat sokólski
+2589431 powiat suwalski
+2706011 powiat wysokomazowiecki
+2704834 powiat zambrowski
+3891982 Suwałki
+# Województwo pomorskie
+1553098 Gdańsk
+2603248 Gdynia
+1551434 powiat bytowski
+1514728 powiat chojnicki
+1550049 powiat człuchowski
+1552801 powiat gdański
+1552932 powiat kartuski
+1514933 powiat kościerski
+1551638 powiat kwidzyński
+1552947 powiat lęborski
+1552789 powiat malborski
+1553086 powiat nowodworski
+1553058 powiat pucki
+1551520 powiat słupski
+1514927 powiat starogardzki
+1552758 powiat sztumski
+1551609 powiat tczewski
+1553004 powiat wejherowski
+1553160 Słupsk
+1553144 Sopot
+# Województwo śląskie
+545474 Bielsko-Biała
+2415787 Bielsko County
+334927 Bytom
+332346 Chorzów
+2132438 Częstochowa
+2251893 Dąbrowa Górnicza
+2103532 Gliwice
+2123217 Gliwice County
+2415561 Jastrzębie-Zdrój
+2003804 Jaworzno
+332321 Katowice
+449442 Mysłowice
+369439 Piekary Śląskie
+2251894 powiat będziński
+2416769 powiat bieruńsko-lędziński
+2073312 powiat cieszyński
+2418666 powiat częstochowski
+2425762 powiat kłobucki
+2422080 powiat lubliniecki
+2143718 powiat mikołowski
+2418667 powiat myszkowski
+2416388 powiat pszczyński
+2416791 powiat rybnicki
+2418668 powiat zawierciański
+2402226 powiat żywiecki
+2417246 Racibórz County
+383221 Ruda Śląska
+2416790 Rybnik
+332334 Siemianowice Śląskie
+2003806 Sosnowiec
+334926 Świętochłowice
+2123218 Tarnowskie Góry County
+2416716 Tychy
+2416350 Wodzisław County
+1774264 Zabrze
+2414718 Żory
+# Województwo podkarpackie
+2632584 Krosno
+1748183 powiat bieszczadzki
+2658685 powiat brzozowski
+2635620 powiat dębicki
+2647747 powiat jarosławski
+2635621 powiat jasielski
+2658572 powiat kolbuszowski
+2635657 powiat krośnieński
+2658708 powiat łańcucki
+1906237 powiat leski
+449368 powiat leżajski
+2004578 powiat lubaczowski
+2635622 powiat mielecki
+1472852 powiat niżański
+2658686 powiat przemyski
+2004573 powiat przeworski
+2658204 powiat ropczycko-sędziszowski
+2658573 powiat rzeszowski
+2658687 powiat sanocki
+1472853 powiat stalowowolski
+2658688 powiat strzyżowski
+2575334 powiat tarnobrzeski
+2632581 Przemyśl
+2632573 Rzeszów
+1475698 Tarnobrzeg
+# Województwo świętokrzyskie
+1627497 Kielce
+2416858 powiat buski
+2416881 powiat jędrzejowski
+2416896 powiat kazimierski
+2425720 powiat kielecki
+2425745 powiat konecki
+2635571 powiat opatowski
+2635572 powiat ostrowiecki
+2595962 powiat pińczowski
+2635573 powiat sandomierski
+2427127 powiat skarżyski
+2421728 powiat starachowicki
+2635574 powiat staszowski
+2425742 powiat włoszczowski
+# Województwo warmińsko-mazurskie
+1600068 Elbląg
+1416560 Olsztyn
+2675551 powiat bartoszycki
+2675544 powiat braniewski
+2675456 powiat działdowski
+2675409 powiat elbląski
+2675560 powiat ełcki
+2675566 powiat giżycki
+2675562 powiat gołdapski
+2675417 powiat iławski
+2675556 powiat kętrzyński
+2675535 powiat lidzbarski
+2675509 powiat mrągowski
+2675473 powiat nidzicki
+2675469 powiat nowomiejski
+2675565 powiat olecki
+2675525 powiat olsztyński
+2675470 powiat ostródzki
+2675559 powiat piski
+2675505 powiat szczycieński
+2675563 powiat węgorzewski
+# Województwo zachodniopomorskie
+2106899 Koszalin
+2613265 powiat białogardzki
+2642274 powiat choszczeński
+2613317 powiat drawski
+2777166 powiat goleniowski
+2777167 powiat gryficki
+2773298 powiat gryfiński
+2777168 powiat kamieński
+2777169 powiat kołobrzeski
+2613236 powiat koszaliński
+2662789 powiat łobeski
+2662786 powiat myśliborski
+343814 powiat policki
+2662787 powiat pyrzycki
+2615877 powiat sławieński
+2662788 powiat stargardzki
+2613274 powiat świdwiński
+2613075 powiat szczecinecki
+2652908 powiat wałecki
+2670477 Świnoujście
+404940 Szczecin
+# Województwo wielkopolskie
+2106876 Kalisz
+2132412 Konin
+1122507 Leszno
+2696427 powiat chodzieski
+2696428 powiat czarnkowsko-trzcianecki
+2408992 powiat gnieźnieński
+2690166 powiat gostyński
+2692538 powiat grodziski
+2614806 powiat jarociński
+2684049 powiat kaliski
+2684226 powiat kępiński
+2683128 powiat kolski
+2666238 powiat koniński
+2690735 powiat kościański
+2688598 powiat krotoszyński
+1138647 powiat leszczyński
+2694292 powiat międzychodzki
+2694252 powiat nowotomyski
+2611092 powiat obornicki
+2684494 powiat ostrowski
+2684365 powiat ostrzeszowski
+2696429 powiat pilski
+2614807 powiat pleszewski
+2406440 powiat poznański
+2690046 powiat rawicki
+2633932 powiat słupecki
+2563093 powiat średzki
+2611094 powiat śremski
+2611093 powiat szamotulski
+2683879 powiat turecki
+2694547 powiat wągrowiecki
+2692501 powiat wolsztyński
+2614808 powiat wrzesiński
+2613328 powiat złotowski
+2456294 Poznań
+

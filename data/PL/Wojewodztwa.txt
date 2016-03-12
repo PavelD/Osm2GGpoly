@@ -1,0 +1,17 @@
+# admin_level 4 
+224457 dolnośląskie
+223407 kujawsko-pomorskie
+130919 lubelskie
+130969 lubuskie
+224458 łódzkie
+224459 małopolskie
+130935 mazowieckie
+224460 opolskie
+130957 podkarpackie
+224461 podlaskie
+130975 pomorskie
+224462 śląskie
+130914 świętokrzyskie
+223408 warmińsko-mazurskie
+130971 wielkopolskie
+104401 zachodniopomorskie
