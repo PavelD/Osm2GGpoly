@@ -1,0 +1,434 @@
+# admin_level 7
+# Alsace-Champagne-Ardenne-Lorraine
+# 7395    08 Ardennes
+3289630 Charleville-Mézières
+3289027 Rethel
+3289631 Sedan
+3289621 Vouziers
+# 7441    10 Aube
+3008912 Bar-sur-Aube
+3008625 Nogent-sur-Seine
+3008919 Troyes
+# 7379    51 Marne
+2769675 Châlons-en-Champagne
+2762482 Épernay
+2698467 Reims
+2769674 Sainte-Menehould
+2769122 Vitry-le-François
+# 7396    52 Haute-Marne
+3210935 Chaumont
+3210055 Langres
+3193890 Saint-Dizier
+# 51856   54 Meurthe-et-Moselle
+1692474 Briey
+2758814 Lunéville
+2963100 Nancy
+2961782 Toul
+# 7382    55 Meuse
+2996521 Bar-le-Duc
+2996524 Commercy
+2984716 Verdun
+# 51854   57 Moselle
+# 2446856 Château-Salins - merged to Sarrebourg-Château-Salins
+5524910 Forbach-Boulay-Moselle
+5524891 Metz
+# 1692570 Sarrebourg - merged to Sarrebourg-Château-Salins
+5524922 Sarrebourg-Château-Salins
+2349599 Sarreguemines
+5524888 Thionville
+# 7415    67 Bas-Rhin
+4630047 Haguenau-Wissembourg
+4630048 Molsheim
+4630049 Saverne
+1666848 Sélestat-Erstein
+4630050 Strasbourg
+# 7403    68 Haut-Rhin
+5525328 Altkirch
+5525007 Colmar-Ribeauvillé
+5525314 Mulhouse
+5525383 Thann-Guebwiller
+# 7384    88 Vosges
+1668383 Épinal
+1668377 Neufchâteau
+1668349 Saint-Dié-des-Vosges
+# Aquitaine-Limousin-Poitou-Charentes
+# 7428    16 Charente
+1973266 Angoulême
+1972938 Cognac
+1971755 Confolens
+# 7431    17 Charente-Maritime
+1662599 Jonzac
+1661547 La Rochelle
+1661785 Rochefort
+1662478 Saintes
+1662464 Saint-Jean-d'Angély
+# 7464    19 Corrèze
+2948478 Brive-la-Gaillarde
+2950545 Tulle
+2950546 Ussel
+# 7459    23 Creuse
+1686534 Aubusson
+1686535 Guéret
+# 7375    24 Dordogne
+3250686 Bergerac
+3256260 Nontron
+3256264 Périgueux
+3250698 Sarlat-la-Canéda
+# 7405    33 Gironde
+1665459 Arcachon
+1665394 Blaye
+1667452 Bordeaux
+1667592 Langon
+1665392 Lesparre-Médoc
+1667596 Libourne
+# 7376    40 Landes
+1690499 Dax
+1690500 Mont-de-Marsan
+# 14284995 47 Lot-et-Garonne
+2752616 Agen
+3228372 Marmande
+2711507 Nérac
+3228373 Villeneuve-sur-Lot
+# 7450    64 Pyrénées-Atlantiques
+2770753 Bayonne
+2770784 Oloron-Sainte-Marie
+2753623 Pau
+# 74455    79 Deux-Sèvres
+1660003 Bressuire
+1660015 Niort
+1660009 Parthenay
+# 7377    86 Vienne
+1662887 Châtellerault
+1662891 Montmorillon
+1662877 Poitiers
+# 7418    87 Haute-Vienne
+1686576 Bellac
+1686577 Limoges
+1686578 Rochechouart
+# Auvergne-Rhône-Alpes
+# 7387    01 Ain
+1668474 Belley
+1668476 Bourg-en-Bresse
+1668429 Gex
+1668454 Nantua
+# 1450201 03 Allier
+2799028 Montluçon
+2881650 Moulins
+2881646 Vichy
+# 7430    07 Ardèche
+2681444 Largentière
+2678456 Privas
+2681504 Tournon-sur-Rhône
+# 7381    15 Cantal
+2188854 Aurillac
+2827316 Mauriac
+2832660 Saint-Flour
+# 7434    26 Drôme
+2846697 Die
+2846698 Nyons
+1687222 Valence
+# 7437    38 Isère
+1676230 Grenoble
+1680027 La Tour-du-Pin
+1680013 Vienne
+# 7420    42 Loire
+1686640 Montbrison
+1686641 Roanne
+1686642 Saint-Étienne
+# 7452    43 Haute-Loire
+3070420 Brioude
+3070731 Pays du Velay
+2753715 Yssingeaux
+# 7406    63 Puy-de-Dôme
+1692900 Ambert
+1693143 Clermont-Ferrand
+1693119 Issoire
+1693144 Riom
+1692911 Thiers
+# 7378    69 Rhône
+1663048 Lyon
+4501835 Villefranche-sur-Saône
+# 7425    73 Savoie
+1670157 Albertville
+1670129 Chambéry
+1670150 Saint-Jean-de-Maurienne
+# 7407    74 Haute-Savoie
+1668737 Annecy
+1668743 Bonneville
+1668739 Saint-Julien-en-Genevois
+1668729 Thonon-les-Bains
+# Bourgogne-Franche-Comté
+# 7424    21 Côte-d'Or
+1684815 Beaune
+1685958 Dijon
+1685959 Montbard
+# 7462    25 Doubs
+1682291 Besançon
+1682292 Montbéliard
+1682293 Pontarlier
+# 7460    39 Jura
+1684776 Dole
+1684777 Lons-le-Saunier
+1684778 Saint-Claude
+# 7448    58 Nièvre
+1975337 Château-Chinon
+1692872 Clamecy
+1975324 Cosne-Cours-sur-Loire
+1976200 Nevers
+# 7423    70 Haute-Saône
+1686314 Lure
+1686315 Vesoul
+# 7397    71 Saône-et-Loire
+3357133 Autun
+3357427 Chalon-sur-Saône
+3363316 Charolles
+3357430 Louhans
+3363317 Mâcon
+# 7392    89 Yonne
+2836722 Auxerre
+2836723 Avallon
+2836724 Sens
+# 7410    90 Territoire de Belfort
+1667490 Belfort
+# Brittany (Bretagne)
+# 7398    22 Côtes-d'Armor
+1652597 Dinan
+1652299 Guingamp
+1652250 Lannion
+1652580 Saint-Brieuc
+# 102430  29 Finistère
+1650034 Brest
+1651150 Châteaulin
+1651095 Morlaix
+1651120 Quimper
+# 7465    35 Ille-et-Vilaine
+1655068 Fougères-Vitré
+1653638 Redon
+1655027 Rennes
+1653637 Saint-Malo
+# 7447    56 Morbihan
+1652956 Lorient
+1653432 Pontivy
+1653470 Vannes
+# Centre-Val de Loire
+# 7456    18 Cher
+1974655 Bourges
+1974664 Saint-Amand-Montrond
+1687517 Vierzon
+# 7374    28 Eure-et-Loir
+2201453 Chartres
+2201273 Châteaudun
+2201280 Dreux
+2201473 Nogent-le-Rotrou
+# 7417    36 Indre
+2148076 Châteauroux
+2148069 Issoudun
+2147794 La Châtre
+2147787 Le Blanc
+# 7408    37 Indre-et-Loire
+1664322 Chinon
+1664339 Loches
+1664345 Tours
+# 7399    41 Loir-et-Cher
+1664362 Blois
+1664361 Romorantin-Lanthenay
+1664358 Vendôme
+# 7440    45 Loiret
+1664511 Montargis
+1664501 Orléans
+1664508 Pithiviers
+# Corsica (Corse)
+# 76932   2A Corse-du-Sud
+2815873 Ajaccio
+2815874 Sartène
+# 76931   2B Haute-Corse
+3233060 Bastia
+3236138 Calvi
+3236139 Corte
+# Île-de-France
+# 71525   75 Paris
+1641193 Paris
+# 7383    77 Seine-et-Marne
+1643633 Fontainebleau
+1642556 Meaux
+1642855 Melun
+1643640 Provins
+1641413 Torcy
+# 7457    78 Yvelines
+1641173 Mantes-la-Jolie
+1641169 Rambouillet
+1641158 Saint-Germain-en-Laye
+1639973 Versailles
+# 7401    91 Essonne
+1638672 Étampes
+1638677 Évry
+1638083 Palaiseau
+# 7449    92 Hauts-de-Seine
+1457524 Antony
+1457526 Boulogne-Billancourt
+1457525 Nanterre
+# 7389    93 Seine-Saint-Denis
+1637468 Bobigny
+1637469 Le Raincy
+1637158 Saint-Denis
+# 7458    94 Val-de-Marne
+1636480 Créteil
+1635875 L'Haÿ-les-Roses
+1636477 Nogent-sur-Marne
+# 7433    95 Val-d'Oise
+1633384 Argenteuil
+1635683 Pontoise
+1634600 Sarcelles
+# Languedoc-Roussillon-Midi-Pyrénées
+# 7439    09 Ariège
+2172304 Foix
+2172151 Pamiers
+2172158 Saint-Girons
+# 7446    11 Aude
+2753432 Carcassonne
+2525441 Limoux
+2753481 Narbonne
+# 7451    12 Aveyron
+1642274 Millau
+1642257 Rodez
+1641784 Villefranche-de-Rouergue
+# 7461    30 Gard
+2757991 Alès
+1689939 Le Vigan
+2757959 Nimes
+# 7413    31 Haute-Garonne
+1649038 Muret
+1649039 Saint-Gaudens
+1649040 Toulouse
+# 7422    32 Gers
+1649154 Auch
+1649155 Condom
+1649157 Mirande
+# 7429    34 Hérault
+1687204 Béziers
+1687205 Lodève
+1686656 Montpellier
+# 7454    46 Lot
+1646580 Cahors
+1646581 Figeac
+1646582 Gourdon
+# 7421    48 Lozère
+1686606 Florac
+1686607 Mende
+# 7467    65 Hautes-Pyrénées
+2463396 Argelès-Gazost
+2520536 Bagnères-de-Bigorre
+2520621 Tarbes
+# 7466    66 Pyrénées-Orientales
+2767883 Céret
+2766170 Perpignan
+2767884 Prades
+# 7442    81 Tarn
+1647415 Albi
+1647417 Castres
+# 7388    82 Tarn-et-Garonne
+1646843 Castelsarrasin
+1646846 Montauban
+# Nord-Pas-de-Calais-Picardy (Nord-Pas-de-Calais-Picardie)
+# 7411    02 Aisne
+2775569 Château-Thierry
+2961287 Laon
+2958002 Saint-Quentin
+2961266 Soissons
+1665594 Vervins
+# 7400    59 Nord
+1645667 Avesnes-sur-Helpe
+1645655 Cambrai
+1643921 Douai
+1643683 Dunkirk
+1643919 Lille
+1645510 Valenciennes
+# 7427    60 Oise
+1665578 Beauvais
+1665590 Clermont
+1665589 Compiègne
+1665582 Senlis
+# 7394    62 Pas-de-Calais
+2918314 Arras
+1648454 Béthune
+2194320 Boulogne-sur-Mer
+1646841 Calais
+1647285 Lens
+2196583 Montreuil
+2214006 Saint-Omer
+# 7463    80 Somme
+2859189 Abbeville
+3257541 Amiens
+3361273 Montdidier
+3361353 Péronne
+# Normandy (Normandie)
+# 7453    14 Calvados
+1656892 Bayeux
+1656907 Caen
+1656905 Lisieux
+1656688 Vire
+# 7435    27 Eure
+3340440 Bernay
+3340453 Évreux
+3221921 Les Andelys
+# 7404    50 Manche
+1656332 Avranches
+1655434 Cherbourg
+1655445 Coutances
+1656340 Saint-Lô
+# 7419    61 Orne
+3329971 Alençon
+3329960 Argentan
+3329568 Mortagne-au-Perche
+# 7426    76 Seine-Maritime
+3018658 Dieppe
+3012370 Le Havre
+3018659 Rouen
+# Pays-de-la-Loire (Loire Country)
+# 7432    44 Loire-Atlantique
+1657064 Ancenis
+1658288 Châteaubriant
+1658291 Nantes
+1658280 Saint-Nazaire
+# 7409    49 Maine-et-Loire
+1659048 Angers
+1658849 Cholet
+1659042 Saumur
+1658828 Segré
+# 7438    53 Mayenne
+1990146 Château-Gontier
+1990147 Laval
+1990148 Mayenne
+# 7443    72 Sarthe
+1659954 La Flèche
+1659960 Le Mans
+1659965 Mamers
+# 7402    85 Vendée
+1658726 Fontenay-le-Comte
+1658750 La Roche-sur-Yon
+1658345 Les Sables-d'Olonne
+# Provence-Alpes-Côte d'Azur
+# 7380    04 Alpes-de-Haute-Provence
+1687248 Barcelonnette
+2165715 Castellane
+2165734 Digne-les-Bains
+2165738 Forcalquier
+# 7436    05 Hautes-Alpes
+1686355 Briançon
+1686356 Gap
+# 7385    06 Alpes-Maritimes
+1670972 Grasse
+1670977 Nice
+# 7393    13 Bouches-du-Rhône
+1686391 Aix-en-Provence
+1686524 Arles
+1686525 Istres
+1686370 Marseille
+# 7390    83 Var
+2226787 Brignoles
+2226788 Draguignan
+1693227 Toulon
+# 7445    84 Vaucluse
+1693194 Apt
+1693195 Avignon
+1693196 Carpentras

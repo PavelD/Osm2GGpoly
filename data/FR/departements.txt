@@ -1,0 +1,110 @@
+# admin_level 6 (5)
+# Alsace-Champagne-Ardenne-Lorraine
+7395    08 Ardennes
+7441    10 Aube
+7379    51 Marne
+7396    52 Haute-Marne
+51856   54 Meurthe-et-Moselle
+7382    55 Meuse
+51854   57 Moselle
+7415    67 Bas-Rhin
+7403    68 Haut-Rhin
+7384    88 Vosges
+# Aquitaine-Limousin-Poitou-Charentes
+7428    16 Charente
+7431    17 Charente-Maritime
+7464    19 Corrèze
+7459    23 Creuse
+7375    24 Dordogne
+7405    33 Gironde
+7376    40 Landes
+1284995 47 Lot-et-Garonne
+7450    64 Pyrénées-Atlantiques
+7455    79 Deux-Sèvres
+7377    86 Vienne
+7418    87 Haute-Vienne
+# Auvergne-Rhône-Alpes
+7387    01 Ain
+1450201 03 Allier
+7430    07 Ardèche
+7381    15 Cantal
+7434    26 Drôme
+7437    38 Isère
+7420    42 Loire
+7452    43 Haute-Loire
+7406    63 Puy-de-Dôme
+7378    69 Rhône
+7425    73 Savoie
+7407    74 Haute-Savoie
+# Bourgogne-Franche-Comté
+7424    21 Côte-d'Or
+7462    25 Doubs
+7460    39 Jura
+7448    58 Nièvre
+7423    70 Haute-Saône
+7397    71 Saône-et-Loire
+7392    89 Yonne
+7410    90 Territoire de Belfort
+# Brittany (Bretagne)
+7398    22 Côtes-d'Armor
+102430  29 Finistère
+7465    35 Ille-et-Vilaine
+7447    56 Morbihan
+# Centre-Val de Loire
+7456    18 Cher
+7374    28 Eure-et-Loir
+7417    36 Indre
+7408    37 Indre-et-Loire
+7399    41 Loir-et-Cher
+7440    45 Loiret
+# Corsica (Corse)
+76932   2A Corse-du-Sud
+76931   2B Haute-Corse
+# Île-de-France
+71525   75 Paris
+7383    77 Seine-et-Marne
+7457    78 Yvelines
+7401    91 Essonne
+7449    92 Hauts-de-Seine
+7389    93 Seine-Saint-Denis
+7458    94 Val-de-Marne
+7433    95 Val-d'Oise
+# Languedoc-Roussillon-Midi-Pyrénées
+7439    09 Ariège
+7446    11 Aude
+7451    12 Aveyron
+7461    30 Gard
+7413    31 Haute-Garonne
+7422    32 Gers
+7429    34 Hérault
+7454    46 Lot
+7421    48 Lozère
+7467    65 Hautes-Pyrénées
+7466    66 Pyrénées-Orientales
+7442    81 Tarn
+7388    82 Tarn-et-Garonne
+# Nord-Pas-de-Calais-Picardy (Nord-Pas-de-Calais-Picardie)
+7411    02 Aisne
+7400    59 Nord
+7427    60 Oise
+7394    62 Pas-de-Calais
+7463    80 Somme
+# Normandy (Normandie)
+7453    14 Calvados
+7435    27 Eure
+7404    50 Manche
+7419    61 Orne
+7426    76 Seine-Maritime
+# Pays-de-la-Loire (Loire Country)
+7432    44 Loire-Atlantique
+7409    49 Maine-et-Loire
+7438    53 Mayenne
+7443    72 Sarthe
+7402    85 Vendée
+# Provence-Alpes-Côte d'Azur
+7380    04 Alpes-de-Haute-Provence
+7436    05 Hautes-Alpes
+7385    06 Alpes-Maritimes
+7393    13 Bouches-du-Rhône
+7390    83 Var
+7445    84 Vaucluse
